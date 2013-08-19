@@ -1,0 +1,13 @@
+server: http://localhost:9876
+
+load:
+  - lib/createjs.js
+  - build/platformer.js
+
+test:
+  - src/test/com/frimastudio/platformer/PlatformerHelperTest.js
+  - src/test/com/frimastudio/platformer/CameraTest.js
+  - src/test/com/frimastudio/platformer/GunTest.js
+  - src/test/com/frimastudio/platformer/PlayerTest.js
+
+

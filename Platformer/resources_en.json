@@ -1,0 +1,13 @@
+{
+    "SPLASH_SCREEN":
+    {
+        "welcome":"welcome",
+        "starting_message":"Bingo Game",
+        "splashScreenModule_btnStart":"G traduit"
+    },
+
+    "BOARD":
+    {
+        "title":"Bingo game with 4 cards"
+    }
+}

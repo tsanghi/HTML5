@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial - Platformer</title>
+    <script src="http://code.createjs.com/createjs-2013.05.14.min.js"></script>
+    <script src="build/platformer.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="platformerCanvas" width="800" height="480" >
+            Your browser doesn't support canvas.
+        </canvas>
+        <div id="hud">
+            <button id="start" onclick=platformerGame.init();>Play</button>
+            <div id="hudinfo" style="display:none">
+                <img src="img/life.png" alt="" style="margin-left:40px;margin-top: 50px;float:left"/>
+                <span id="lifePoint" style="display:block;float:left;margin-top: 68px;font-size: 2em">X 1</span>
+                <img id="gunhud" src="img/gunhud.png" alt="" style="margin-top: 40px;margin-right: 100px;float:right;display: none;"/>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var splashScreen = new SplashScreen();
+        var platformerGame = new PlatformerGame();
+    </script>
+</body>
+</html>
